@@ -1,0 +1,16 @@
+package config
+
+const (
+	// DATABASE
+	DbHost = "localhost"
+	DbPort = "5432"
+	DbUser = "idopsql"
+	DbPass = "thepassword"
+	DbName = "postgres"
+
+	DbMaxIdleConns = 4
+	DbMaxConns     = 50
+	TotalWorker    = 50
+
+	CsvFile = "resources/majestic_million_csv.csv"
+)
